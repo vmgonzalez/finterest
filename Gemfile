@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -28,6 +28,11 @@ gem 'jbuilder', '~> 2.0'
 # bootstrap gem to add sass
 gem 'bootstrap-sass'
 
+
+gem 'devise', '~> 3.4.1'
+
+
+
 group :development, :test do
    gem 'sqlite3'
 end
@@ -36,8 +41,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
-
 
 
 # bundle exec rake doc:rails generates the API under doc/api.
